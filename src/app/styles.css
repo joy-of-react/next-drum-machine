@@ -45,3 +45,49 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* Styles */
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url('/wallpaper.jpg');
+
+  font-family: 'Comic Sans MS', cursive,
+    sans-serif;
+}
+
+h1 {
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 1.75rem;
+}
+p {
+  font-size: 1rem;
+  margin-bottom: 1.5em;
+  text-indent: 2em;
+}
+
+footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 48px;
+  text-align: center;
+  color: white;
+}
+footer span {
+  background: hsl(234deg 54% 53%);
+  padding: 8px 16px;
+  border-radius: 1000px;
+}
+
+/* Scrollbar and selection styles */
+::selection {
+  background-color: var(
+    --selection-background-color,
+    hsl(50deg 100% 78%)
+  );
+  color: var(--selection-text-color, black);
+}

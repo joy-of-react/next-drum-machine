@@ -1,0 +1,8 @@
+.wrapper {
+  background: hsl(234deg 70% 85% / 0.9);
+  border-radius: 8px 8px 0px 0px;
+  padding: 32px;
+  backdrop-filter: blur(4px);
+  border-bottom: 8px dashed hsl(234deg 54% 53%);
+  outline: 8px solid hsl(234deg 70% 85% / 0.9);
+}

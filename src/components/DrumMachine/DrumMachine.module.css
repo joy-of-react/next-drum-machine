@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.wrapper button {
+  background: hsl(234deg 54% 53%);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 900;
+  flex: 1;
+  padding-block: 8px;
+  border: 4px solid;
+  border-top-color: hsl(234deg 54% 72%);
+  border-left-color: hsl(234deg 54% 65%);
+  border-right-color: hsl(234deg 54% 60%);
+  border-bottom-color: hsl(234deg 54% 30%);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.wrapper button:active {
+  background: hsl(234deg 54% 45%);
+  border-top-color: hsl(234deg 54% 30%);
+  border-left-color: hsl(234deg 54% 40%);
+  border-right-color: hsl(234deg 54% 45%);
+  border-bottom-color: hsl(234deg 54% 60%);
+}
